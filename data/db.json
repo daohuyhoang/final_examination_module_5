@@ -1,0 +1,121 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "productCode": "PROD-0001",
+      "name": "Giày Thể Thao",
+      "categoryId": "C001",
+      "dateOfAcquisition": "2024-08-20",
+      "price": 250000,
+      "quantity": 10,
+      "description": "Giày thể thao chất lượng cao, phù hợp cho mọi hoạt động thể thao."
+    },
+    {
+      "id": "P002",
+      "productCode": "PROD-0002",
+      "name": "Áo Sơ Mi",
+      "categoryId": "C002",
+      "dateOfAcquisition": "2024-07-15",
+      "price": 200000,
+      "quantity": 5,
+      "description": "Áo sơ mi kiểu dáng thanh lịch, phù hợp cho các buổi họp mặt và công sở."
+    },
+    {
+      "id": "P003",
+      "productCode": "PROD-0003",
+      "name": "Quần Jean",
+      "categoryId": "C001",
+      "dateOfAcquisition": "2024-08-22",
+      "price": 300000,
+      "quantity": 8,
+      "description": "Quần jean thời trang, chất liệu bền bỉ và thoải mái khi mặc."
+    },
+    {
+      "id": "P004",
+      "productCode": "PROD-0004",
+      "name": "Áo Khoác",
+      "categoryId": "C002",
+      "dateOfAcquisition": "2024-08-10",
+      "price": 150000,
+      "quantity": 12,
+      "description": "Áo khoác ấm áp, lý tưởng cho mùa đông và thời tiết lạnh."
+    },
+    {
+      "id": "P005",
+      "productCode": "PROD-0005",
+      "name": "Giày Da",
+      "categoryId": "C001",
+      "dateOfAcquisition": "2024-08-15",
+      "price": 180000,
+      "quantity": 7,
+      "description": "Giày da sang trọng, phù hợp cho các dịp trang trọng và làm việc."
+    },
+    {
+      "id": "P006",
+      "productCode": "PROD-0006",
+      "name": "Túi Xách",
+      "categoryId": "C003",
+      "dateOfAcquisition": "2024-08-21",
+      "price": 250000,
+      "quantity": 10,
+      "description": "Túi xách thời trang, thiết kế hiện đại và tiện dụng."
+    },
+    {
+      "id": "P007",
+      "productCode": "PROD-0007",
+      "name": "Đồng Hồ",
+      "categoryId": "C002",
+      "dateOfAcquisition": "2024-08-16",
+      "price": 15000000,
+      "quantity": 1,
+      "description": "Đồng hồ cao cấp với thiết kế sang trọng và tính năng chính xác."
+    },
+    {
+      "id": "P008",
+      "productCode": "PROD-0008",
+      "name": "Nón Bảo Hiểm",
+      "categoryId": "C001",
+      "dateOfAcquisition": "2024-08-09",
+      "price": 120000,
+      "quantity": 4,
+      "description": "Nón bảo hiểm chất lượng, đảm bảo an toàn khi di chuyển."
+    },
+    {
+      "id": "P009",
+      "productCode": "PROD-0009",
+      "name": "Áo Thun",
+      "categoryId": "C003",
+      "dateOfAcquisition": "2024-08-01",
+      "price": 220000,
+      "quantity": 12,
+      "description": "Áo thun thoải mái, phù hợp cho các hoạt động hàng ngày."
+    },
+    {
+      "productCode": "PROD-0010",
+      "name": "Quần Âu",
+      "categoryId": "C002",
+      "dateOfAcquisition": "2024-08-16",
+      "price": 1000000,
+      "quantity": 5,
+      "description": "Quần âu vải chất lượng cao",
+      "id": "KOpl_Ct"
+    }
+  ],
+  "categories": [
+    {
+      "categoryId": "C001",
+      "name": "Giày",
+      "description": "Sản phẩm giày dép."
+    },
+    {
+      "categoryId": "C002",
+      "name": "Quần Áo",
+      "description": "Sản phẩm quần áo và phụ kiện thời trang."
+    },
+    {
+      "categoryId": "C003",
+      "name": "Phụ Kiện",
+      "description": "Sản phẩm phụ kiện thời trang và đồ dùng khác."
+    }
+  ]
+}
