@@ -36,7 +36,6 @@ function ProductCreate() {
             .matches(/^PROD-\d{4}$/, "Mã sản phẩm phải đúng định dạng PROD-XXXX")
             .required("Mã sản phẩm là bắt buộc"),
         name: Yup.string()
-            .max(100, "Tên sản phẩm không dài quá 100 ký tự")
             .required("Tên sản phẩm là bắt buộc"),
         categoryId: Yup.string()
             .required("Thể loại sản phẩm là bắt buộc"),
@@ -51,7 +50,6 @@ function ProductCreate() {
             .positive("Số lượng phải lớn hơn 0")
             .required("Số lượng sản phẩm là bắt buộc"),
         description: Yup.string()
-            .max(500, "Mô tả sản phẩm không dài quá 500 ký tự")
             .required("Mô tả sản phẩm là bắt buộc")
     });
 

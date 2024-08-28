@@ -54,7 +54,7 @@ function ProductLists() {
                         onChange={(e) => setName(e.target.value)}
                     />
                     <select className="form-control me-2" value={categoryId} onChange={(e) => setCategoryId(e.target.value)}>
-                        <option value="">Tất cả thể loại</option>
+                        <option value="">Chọn thể loại</option>
                         {categories.map(category => (
                             <option key={category.categoryId} value={category.categoryId}>{category.name}</option>
                         ))}
