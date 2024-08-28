@@ -13,7 +13,7 @@ function ProductCreate() {
         dateOfAcquisition: "",
         price: 0,
         quantity: 0,
-        description: ""  // Thêm mô tả sản phẩm
+        description: ""
     });
     const [categories, setCategories] = useState([]);
     const navigate = useNavigate();
